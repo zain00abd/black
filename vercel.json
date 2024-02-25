@@ -1,5 +1,12 @@
 {
     "version": 2,
+    "boilds":
+    [
+        {
+            "src": "*.js",
+            "use": "@vercel/node"
+        }
+    ],
     "routes":
     [
         {
